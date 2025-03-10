@@ -9,9 +9,9 @@ contract DeployOptimism is DeployUniversalRouter {
         params = RouterParameters({
             permit2: 0x000000000022D473030F116dDEE9F6B43aC78BA3,
             weth9: 0x4200000000000000000000000000000000000006,
-            seaportV1_5: 0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC,
-            seaportV1_4: 0x00000000000001ad428e4906aE43D8F9852d0dD6,
-            openseaConduit: 0x1E0049783F008A0085193E00003D00cd54003c71,
+            seaportV1_5: UNSUPPORTED_PROTOCOL,
+            seaportV1_4: UNSUPPORTED_PROTOCOL,
+            openseaConduit: UNSUPPORTED_PROTOCOL,
             nftxZap: UNSUPPORTED_PROTOCOL,
             x2y2: UNSUPPORTED_PROTOCOL,
             foundation: UNSUPPORTED_PROTOCOL,
@@ -23,13 +23,13 @@ contract DeployOptimism is DeployUniversalRouter {
             routerRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareToken: UNSUPPORTED_PROTOCOL,
-            v2Factory: 0xF1046053aa5682b4F9a81b5481394DA16BE5FF5a,
-            v3Factory: 0xCc0bDDB707055e04e497aB22a59c2aF4391cd12F,
-            v2Implementation: 0x95885Af5492195F0754bE71AD1545Fe81364E531,
-            clImplementation: 0xc28aD28853A547556780BEBF7847628501A3bCbb
+            v2Factory: 0x5F47613A76C1c01BcE11b3D398de16E38c3d4DCb,
+            v3Factory: 0xe4632033Fd101aFa5CeBB75F952B0BbdC9FBa4A4,
+            v2Implementation: 0x6a61c5F58D447aa0Cb4fe87120B0Cce2cAe6c795,
+            clImplementation: 0x9C2096f701AF38f120B667c69a22018c98B6f8C3
         });
 
-        unsupported = 0x40d51104Da22E3e77b683894E7e3E12e8FC61E65;
+        unsupported = UNSUPPORTED_PROTOCOL;
         outputFilename = 'optimism.json';
     }
 }
