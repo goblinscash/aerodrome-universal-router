@@ -214,3 +214,5 @@ script/deployParameters/Deploy<network>.s.sol:Deploy<network>
 --etherscan-api-key <ETHERSCAN-API-KEY> \
 --verify
 ```
+
+forge script script/deployParameters/DeployBsc.s.sol:DeployBsc --sig 'run()' --broadcast --slow --rpc-url bsc --etherscan-api-key XXX --verify -vvvv --private-key XXX
