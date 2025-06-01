@@ -23,10 +23,10 @@ contract DeployBsc is DeployUniversalRouter {
             routerRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareRewardsDistributor: UNSUPPORTED_PROTOCOL,
             looksRareToken: UNSUPPORTED_PROTOCOL,
-            v2Factory: 0xA8815fcC143AA93aD8e9Eab987970bB2DBfE2CCa, // Aerodrome PoolFactory
-            v3Factory: 0xD1008d59FEB0c952fC845Ac15D77DB5A877c197E, // Aerodrome CLFactory
-            v2Implementation: 0x32a6353E7625e2C92AAb6517C1efe6D0e1A4DFA9, // v2Factory.implementation()
-            clImplementation: 0x713749BCB9d5e39f17E062CB46bC960F08e1ea29 // // v3Factory.poolImplementation()
+            v2Factory: 0xd4603DE52a29ABa9B046B248ea7d0ac69801548c, // Aerodrome PoolFactory
+            v3Factory: 0x7A3027f7A2f9241c0634a7f6950D2D8270aC0563, // Aerodrome CLFactory
+            v2Implementation: 0x9c5b51Fa892FF06b3d2e9389aBdda91D47A538CB, // v2Factory.implementation()
+            clImplementation: 0x612e163b2336bAf23e33214F8a030058E1E9086f  // v3Factory.poolImplementation()
         });
 
         unsupported = 0x341e53e3a0642881C589BC9fA1201754D9b9317D;
